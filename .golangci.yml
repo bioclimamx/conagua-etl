@@ -1,0 +1,18 @@
+# golangci-lint config — bioclimamx/conagua-etl
+# Basic ruleset; tighten as the codebase grows. Run `golangci-lint run`
+# once to confirm it parses against your installed version (v2 schema).
+version: "2"
+
+linters:
+  default: standard          # errcheck, govet, ineffassign, staticcheck, unused
+  enable:
+    - revive                 # general Go style
+    - misspell               # typos in comments and strings
+    - unconvert              # redundant type conversions
+    - errorlint              # correct error wrapping / comparison
+  exclusions:
+    rules:
+      # Ginkgo / Gomega specs dot-import both packages by convention.
+      - path: '_test\.go'
+        linters:
+          - revive

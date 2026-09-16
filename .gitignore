@@ -1,0 +1,23 @@
+# Build output
+build/
+/bin/
+
+# Secrets / local env
+.env
+
+# SQLite artifacts produced by the ETL
+*.db
+*.db-wal
+*.db-shm
+
+# Local ETL data (snapshots written by pull, etc.)
+/snapshots/
+
+# Go test / coverage
+*.test
+coverage.out
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store

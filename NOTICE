@@ -1,0 +1,38 @@
+conagua-etl
+Copyright (c) 2026 Pablo Trinidad
+
+The source code in this repository is licensed under the MIT License (see
+LICENSE). That license covers the code only.
+
+Third-party data in the test fixtures
+-------------------------------------
+
+Some files under the testdata directories are verbatim copies or excerpts of
+files published by CONAGUA / Servicio Meteorológico Nacional (Comisión
+Nacional del Agua); the others are synthetic files written in the same
+format. The CONAGUA files are:
+
+  internal/conagua/testdata/cat_ags.html
+  internal/conagua/testdata/daily/real_01001.txt
+  internal/conagua/testdata/header/real_daily_01001.txt
+  internal/conagua/testdata/header/real_daily_25171_wrapped.txt
+  internal/conagua/testdata/normals/real_1991_2020_01001.txt
+  internal/ingest/testdata/normals_1981_2010_01001.txt
+  internal/cmd/testdata/ (catalogo/, Diarios/, Normales9120/)
+
+They remain under CONAGUA's terms, not under this repository's license:
+
+  Dataset:            Normales Climatológicas por Estado — per-station
+                      climatological normals and daily observation files
+  Source:             CONAGUA / Servicio Meteorológico Nacional
+  Source URL:         https://smn.conagua.gob.mx/tools/RESOURCES/Normales_Climatologicas/
+  Consultation dates: 2026-04-21 to 2026-08-30
+  Terms:              Términos de Libre Uso MX (https://datos.gob.mx/libreusomx)
+
+They are included only to test the parsers against the source's real format.
+Their use here does not represent an official position of the Government of
+Mexico, nor is it endorsed by CONAGUA or the Servicio Meteorológico Nacional.
+
+The dataset this program builds is licensed separately: its own LICENSE
+(CC BY 4.0, on the compilation) and NOTICE (the CONAGUA / SMN and NASA POWER
+credits) ship inside every deposit.
