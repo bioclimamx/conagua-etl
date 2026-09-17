@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "bioclimamx/conagua-etl"
+version: "v0.1.1"
+date-released: 2026-09-17
+doi: 10.5281/zenodo.22803538
+license: MIT
+repository-code: "https://github.com/bioclimamx/conagua-etl"
+type: software
+authors:
+  - family-names: Trinidad
+    given-names: Pablo
+    orcid: "https://orcid.org/0009-0007-4050-494X"
+    affiliation: "Independent researcher"
+keywords:
+  - Mexico
+  - CONAGUA
+  - climate data
+  - weather stations
+  - NASA POWER

@@ -1,5 +1,7 @@
 # conagua-etl
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22803537.svg)](https://doi.org/10.5281/zenodo.22803537)
+
 `conagua-etl` builds **BioclimaMX Stations**, a citable dataset of Mexican
 climate station records. It downloads the climatological station files that
 CONAGUA's Servicio Meteorológico Nacional (SMN) publishes, loads them into a
@@ -223,6 +225,14 @@ Every push to `main` and every pull request runs `make check`
 for Linux, macOS and Windows on amd64 and arm64, checks that each one
 records the release commit and a clean tree, and attaches the archives and
 `SHA256SUMS` to the release. Deposits are always built locally, never in CI.
+
+## Citation
+
+If you use this software, please cite the archived release:
+
+> Trinidad, P. (2026). *bioclimamx/conagua-etl: v0.1.1* (Version v0.1.1) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.22803538
+
+If you use the dataset it produces, cite the dataset record instead (DOI to be added on publication).
 
 ## License
 
