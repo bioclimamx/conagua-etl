@@ -1,8 +1,9 @@
 # conagua-etl
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22803537.svg)](https://doi.org/10.5281/zenodo.22803537)
+[![software DOI](https://img.shields.io/badge/software%20DOI-10.5281%2Fzenodo.22803537-blue?logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.22803537)
+[![dataset DOI](https://img.shields.io/badge/dataset%20DOI-10.5281%2Fzenodo.22802148-blue?logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.22802148)
 
-`conagua-etl` builds **BioclimaMX Stations**, a citable dataset of Mexican
+`conagua-etl` builds [**BioclimaMX Stations**](https://doi.org/10.5281/zenodo.22802148), a citable dataset of Mexican
 climate station records. It downloads the climatological station files that
 CONAGUA's Servicio Meteorológico Nacional (SMN) publishes, loads them into a
 SQLite database, adds NASA POWER reanalysis for each station's grid cell, and
@@ -191,6 +192,8 @@ clients.
 
 `publish` writes a directory ready to upload to Zenodo. It also includes its
 own README, a data dictionary, a QA report, and the license and credit files.
+The published deposit, BioclimaMX Stations version 0.1, is
+https://doi.org/10.5281/zenodo.22802149.
 
 | Files | Contents |
 |---|---|
@@ -232,7 +235,13 @@ If you use this software, please cite the archived release:
 
 > Trinidad, P. (2026). *bioclimamx/conagua-etl: v0.1.1* (Version v0.1.1) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.22803538
 
-If you use the dataset it produces, cite the dataset record instead (DOI to be added on publication).
+If you use the dataset it produces, cite the dataset record instead:
+
+> Trinidad, P. (2026). *BioclimaMX Stations: Mexican Climate Station Records (CONAGUA), Augmented with NASA POWER* (Version 0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.22802149
+
+That DOI names version 0.1. The concept DOI,
+https://doi.org/10.5281/zenodo.22802148, always resolves to the latest
+version.
 
 ## License
 
