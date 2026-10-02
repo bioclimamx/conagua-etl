@@ -193,7 +193,10 @@ clients.
 `publish` writes a directory ready to upload to Zenodo. It also includes its
 own README, a data dictionary, a QA report, and the license and credit files.
 The published deposit, BioclimaMX Stations version 0.1, is
-https://doi.org/10.5281/zenodo.22802149.
+https://doi.org/10.5281/zenodo.22802149. A subset of it, every table in
+Parquet plus the small tables as CSV, is mirrored on Kaggle at
+https://www.kaggle.com/datasets/pablotrinidad/bioclimamx-stations; cite
+the Zenodo record.
 
 | Files | Contents |
 |---|---|
